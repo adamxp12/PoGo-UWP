@@ -1,0 +1,124 @@
+<!doctype html>
+<html class="no-js" lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PoGo-UWP</title>
+    <!-- Inital Web Design by Adam Blunt (keybase.io/admblnt) -->
+    <link rel="stylesheet" href="css/foundation.min.css">
+    <link rel="stylesheet" href="css/app.css">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
+  </head>
+  <body>
+
+    <div class="alertbar" data-sticky-container>
+      <div class="row">
+        IMPORTANT NOTICE: PoGo-UWP is currently non functional due to API changes.
+      </div>
+    </div>
+    
+    <div class="pagecontent">
+      <div class="tophead">
+        <div class="row">
+          <div class="medium-6 columns lefthead">
+            <h1>PoGO-UWP</h1>
+            <p>PoGo-UWP is an UWP (Universal Windows Platform) client for Niantic's Pokemon™ Go Android/iOS game. Being a client, this means that it gives you the ability to play in the same game-world as your friends that are playing with an Android or iOS device.</p>
+          </div>
+          <div class="medium-6 columns">
+            <h3>Latest Release</h3>
+            <p>You can download the latest release of PoGo-UWP from our GitHub page linked below.</p>
+            <p>Note that currently the app is non functional due to a recent API change, we are working on getting a new release out as soon as the new API is figured out.</p>
+            <a href="https://github.com/ST-Apps/PoGo-UWP/releases" class="button downloadbutton"><i class="fa fa-download"></i> Download</a><small> Latest Version v1.0.12</small>
+          </div>
+        </div>
+        
+      </div>
+
+      <div class="row marginbottom">
+        <div class="medium-4 columns">
+          <h3>Why PoGo-UWP?</h3><hr>
+          <ul>
+            <li>Because learning new things is always cool</li>
+            <li>Because it could be done</li>
+            <li>Because Microsoft rejected my job application saying that I wasn't showing enough "passion", and this proves them wrong :)</li>
+          </ul>
+        </div>
+
+        <div class="medium-4 columns">
+          <h3>Current features</h3><hr>
+          <ul>
+            <li>Login with <a href="https://www.pokemon.com/us/pokemon-trainer-club/">Pokemon™ Trainer Club accounts</a></li>
+            <li>Similar UI as the Android/iOS version but 2D only</li>
+            <li>Use the map to see both Pokemons and PokeStops near your location</li>
+            <li>Catch Pokemons</li>
+            <li>Visit PokeStops and get new items</li>
+          </ul>
+
+        </div>
+
+        <div class="medium-4 columns">
+          <h3>Known issues</h3><hr>
+          <p>Check out the issues page on our GitHub repo for an upto date list of known issues.</p>
+          <a href="https://github.com/ST-Apps/PoGo-UWP/issues" class="button alert"><i class="fa fa-bug"></i> Issues</a>
+        </div>
+
+      </div>
+
+      <div class="row">
+        <div class="medium-8 columns">
+          <h3>Installation Instructions</h3><hr>
+          <p>Installation is a pretty easy process, just follow this simple guide,
+          or you can check out this handy <a href="https://www.youtube.com/watch?v=9SjUPlOYd_0&feature=youtu.be">video guide</a> <b>(thanks to tofylion)</b></p>
+          <p><b>NOTE</b>: This app only works with Windows 10, it is not compatible with Windows Phone 8/8.1</p>
+          <ul>
+
+            <li>Create a <a href="https://www.pokemon.com/us/pokemon-trainer-club/">Pokemon™ Trainer Club</a> account</li>
+            <li>Login on the Android/iOS app to choose your starter (you can use Bluestacks)</li>
+            <li>Logout from the official app</li>
+            <li>Download the following files and place them in the same folder: <a href="https://github.com/ST-Apps/PoGo-UWP/releases/download/v1.0.12-beta/PokemonGo-UWP_1.0.12.0_ARM_Debug.appx">1</a> - <a href="https://github.com/ST-Apps/PoGo-UWP/blob/master/PokemonGo-UWP/AppPackages/PokemonGo-UWP_1.0.3.0_ARM_Debug_Test/Dependencies/ARM/Microsoft.NET.CoreRuntime.1.0.appx?raw=true">2 - <a href="https://github.com/ST-Apps/PoGo-UWP/blob/master/PokemonGo-UWP/AppPackages/PokemonGo-UWP_1.0.3.0_ARM_Debug_Test/Dependencies/ARM/Microsoft.VCLibs.ARM.Debug.14.00.appx?raw=true">3</a></li>
+            <li>Change your storage settings from SD card to phone storage <b>(thanks to <a href="https://github.com/nr23730">nr23730</a>)</b></li>
+            <li>Enable <a href="https://msdn.microsoft.com/en-us/windows/uwp/debug-test-perf/device-portal-mobile">Device Portal</a></li>
+            <li>Navigate to APPS page on Device Portal</li>
+            <li>Choose file #1 under "Install App"</li>
+            <li>Click on "Add Dependency" twice and add both file #2 and #3</li>
+            <li>Click on "Go" under "Deploy" and wait until "Done!" is shown</li>
+            <li>Launch the app on your device</li>
+            <li>Login</li>
+            <li>Have fun :D</li>
+          </ul>
+
+        </div>
+
+        <div class="medium-4 columns">
+          <h3>How to help</h3><hr>
+          <p>If you want to provide feedback and/or report a bug, please use <a href="https://github.com/ST-Apps/PoGo-UWP/issues">Github Issues</a> (you'll need a free GitHub account). To make things easier, please search for opened issues before starting a new one so that we avoid useless duplicates.</p>
+
+          <p>Every kind of help is appreciated, feel free to submit a pull request if you feel that you can improve my code or add new features!</p><br>
+          <h3>Support my work</h3>
+
+          <p>The goal of this project is to learn and experiment, but if you want to support my work please do one of the following:
+          <ul>
+            <li>Download my free beta app <a href="https://www.microsoft.com/en-us/store/apps/one-auth/9nblggh4nhtl">One Auth</a></li>
+            <li>Donate using PayPal: <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=CZB2MWEN2JZAN"><img src="img/donate.gif"></a></li>
+
+        </div>
+
+    </div>
+
+    <footer>
+      <div class="row">
+        <div class="medium-6 columns">
+          <p>This code is in no way affiliated with, authorized, maintained, sponsored or endorsed by Niantic, The Pokémon Company, Nintendo or any of its affiliates or subsidiaries. This is an independent and unofficial API for educational use ONLY. Use at your own risk.</p>
+        </div>
+        <div class="medium-6 columns">
+          <p>This client is based on <a href="https://github.com/DetectiveSquirrel/Pokemon-Go-Rocket-API">Pokemon-Go-Rocket-API</a>, using assets from <a href="https://github.com/Superviral/Pokemon-GO-App-Assets-and-Images">Pokemon-GO-App-Assets-and-Images</a>.</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="js/vendor/jquery.min.js"></script>
+    <script src="js/vendor/what-input.js"></script>
+    <script src="js/vendor/foundation.min.js"></script>
+  </body>
+</html>

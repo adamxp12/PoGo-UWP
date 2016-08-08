@@ -1,0 +1,49 @@
+.alertbar {
+	background: #c0392b;
+	min-height: 50px;
+	padding: 10px;
+	color: #fff;
+	font-weight: bold;
+	text-align: center;
+}
+
+.tophead {
+	min-height: 400px;
+	background: #ecf0f1;
+	padding-top: 100px;
+	margin-bottom: 20px;
+}
+
+.downloadbutton {
+	background: #27ae60;
+}
+
+
+.marginbottom {
+	margin-bottom: 20px;
+}
+
+footer {
+	padding-top: 20px;
+	background: #ecf0f1;
+	margin-top: 50px;
+	font-size: 0.8rem;
+}
+
+/* Mobile Styles */
+@media screen and (max-width: 39.9375em) {
+	.tophead {
+		padding-top: 50px;
+	}
+	.lefthead {
+		text-align: center;
+		margin-bottom: 40px;
+		border-bottom: 1px #aaa solid;
+		
+	}
+
+	.lefthead h1 {
+		font-weight: bold;
+	}
+
+}
