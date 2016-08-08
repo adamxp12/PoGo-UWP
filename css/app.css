@@ -1,3 +1,11 @@
+* {
+	font-family: 'Open Sans', sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+
+
 .alertbar {
 	background: #c0392b;
 	min-height: 50px;
@@ -9,8 +17,9 @@
 
 .tophead {
 	min-height: 400px;
-	background: #ecf0f1;
-	padding-top: 100px;
+	background: #7f8c8d;
+	color: #fff;
+	padding-top: 50px;
 	margin-bottom: 20px;
 }
 
@@ -21,6 +30,13 @@
 
 .marginbottom {
 	margin-bottom: 20px;
+}
+
+.logo {
+	max-height: 150px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
 }
 
 footer {
